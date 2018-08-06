@@ -1,0 +1,19 @@
+{
+  "name": "bbc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest ./test --colors",
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "Lee McGowan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "jest": "^23.4.2",
+    "prompt": "^1.0.0"
+  }
+}
